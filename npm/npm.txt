@@ -1,0 +1,16 @@
+npm 
+es el archivo de software más grande del mudno que cotiene paquetes que puedes instalar y usar con Node.js también es una herramienta para la línea de comandos.
+
+paquete 
+es un archivo-s o directorio(carpeta) descrito por un archivo package.json el paquete puede ser publicado en el registro npm 
+
+módulo
+es cualquier acrchivo o directorio en el directorio node_modules que puede ser importado con requiere(). 
+para poder incluir un módulo con require(), debe ser un archivo JavaScript o una carpeta con un archivo package.json  que contiene una propiedad "main"
+
+node_modules 
+es una carpeta que se creara automaticamente cuando trabajemos con npm , dentro encontraremos nuestros modulos o paquetes agrupados para poder usarlos en nuestro proyecto. 
+de esos modulos solo los modulos que tienen un archivo package.json son paquetes
+
+Dependencia 
+es un paquete que otro paquete necesita para funcionar correctamente
