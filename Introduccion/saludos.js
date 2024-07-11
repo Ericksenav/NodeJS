@@ -2,15 +2,15 @@ function saludar(nombre){
   return `hola, ${nombre}`;
 }
 
-function saludarholamundo(){
+function saludarInvoltar(){
   return `hola Mundo`;
 }
 
 // module.exports.saludar = saludar;
-// module.exports.saludarholamundo = saludarholamundo;
+// module.exports.saludarInvoltar = saludarInvoltar;
 
 module.exports = {
   saludar: saludar,
-  saludarholamundo: saludarholamundo
+  saludarInvoltar: saludarInvoltar
 
 };
